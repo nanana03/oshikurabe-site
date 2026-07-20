@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>プライバシーポリシー — 推しくらべ (Oshi Check)</title>
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header class="hero">
+    <h1 style="font-size:1.6rem">プライバシーポリシー</h1>
+    <div class="en">推しくらべ (Oshi Check)</div>
+  </header>
+
+  <p>本ポリシーは、iOSアプリ「推しくらべ」（英語名: Oshi Check、以下「本アプリ」）における利用者情報の取り扱いを定めるものです。</p>
+
+  <h2>1. 取得する情報</h2>
+  <div class="card">
+    <p>本アプリは、利用者の許可（Googleアカウントによるログインと同意）に基づき、YouTube Data API を通じて次の情報を取得します。</p>
+    <ul>
+      <li><strong>YouTubeの登録チャンネル一覧</strong>（チャンネル名・チャンネルID・アイコン画像・チャンネルの公開情報〔説明文・キーワード・トピックカテゴリ〕）— 読み取り専用スコープのみを使用し、アカウントの他の情報には一切アクセスしません。</li>
+    </ul>
+    <p>本アプリが独自に氏名・メールアドレス・位置情報などを取得することはありません。</p>
+  </div>
+
+  <h2>2. 利用目的</h2>
+  <div class="card">
+    <ul>
+      <li>取り込んだチャンネル一覧を端末内に表示し、利用者が「共有してよい推し」を選択できるようにするため</li>
+      <li>チャンネルをジャンルへ自動分類し、一覧を見やすくグループ表示するため</li>
+      <li>対面の相手との「共通の推し・共通ジャンル・相性度」の照合を行うため</li>
+    </ul>
+  </div>
+
+  <h2>3. 保存場所と保持期間</h2>
+  <div class="card">
+    <ul>
+      <li>取り込んだチャンネル一覧（カタログ）は<strong>利用者の端末内にのみ</strong>保存されます。運営者のサーバーには保存されません。</li>
+      <li>カタログは取り込みから<strong>30日で自動的に消去</strong>されます（再取り込みで更新できます）。</li>
+      <li>利用者が共有用に選択したチャンネルのリストも端末内にのみ保存されます。</li>
+      <li><strong>アプリを削除すると、端末内のすべてのデータが消去されます。</strong></li>
+    </ul>
+  </div>
+
+  <h2>4. 外部への送信</h2>
+  <div class="card">
+    <h3>ジャンル分類のための送信</h3>
+    <p>チャンネルのジャンル自動分類のため、チャンネルの<strong>公開情報のみ</strong>（チャンネルID・チャンネル名・説明文・キーワード・トピックカテゴリ）を運営者の分類サーバー（Google Cloud 東京リージョン）に送信し、分類結果を得ます。分類結果は同一チャンネルの再分類を避けるためサーバー側にキャッシュされます。<strong>誰がどのチャンネルを登録しているかという情報（アカウント情報・登録一覧としてのまとまり）は送信・保存されません。</strong></p>
+    <h3>対面照合時の通信</h3>
+    <p>相手との照合は、その場の端末どうしの直接通信（ローカルネットワーク／近接通信）で行われ、<strong>照合内容が運営者を含む外部サーバーを経由することはありません</strong>。照合には暗号学的手法（PSI: Private Set Intersection）を用いており、<strong>一致した項目だけ</strong>が相互に開示され、一致しなかった項目は相手にも知られません。</p>
+  </div>
+
+  <h2>5. 第三者提供・広告</h2>
+  <div class="card">
+    <ul>
+      <li>利用者の情報を第三者に提供・販売することはありません。</li>
+      <li>本アプリに広告は表示されず、広告目的のトラッキングも行いません。</li>
+    </ul>
+  </div>
+
+  <h2>6. Google ユーザーデータの取り扱い（Limited Use）</h2>
+  <div class="card">
+    <p>本アプリによる Google API から取得した情報の利用は、<a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>（Limited Use の要件を含む）に準拠します。取得したデータは上記第2条の機能提供のためにのみ使用し、それ以外の目的（広告・売却・信用判断等）には使用しません。</p>
+  </div>
+
+  <h2>7. YouTube API Services</h2>
+  <div class="card">
+    <p>本アプリは YouTube API Services を使用しています。利用者には <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">YouTube 利用規約</a> および <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google プライバシーポリシー</a> が適用されます。</p>
+    <p>本アプリに許可したアクセス権は、<a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Googleアカウントのセキュリティ設定ページ</a> からいつでも取り消すことができます。</p>
+  </div>
+
+  <h2>8. ポリシーの変更</h2>
+  <div class="card">
+    <p>本ポリシーを変更する場合は、本ページで告知します。重要な変更がある場合は、アプリ内でもお知らせします。</p>
+  </div>
+
+  <h2>9. お問い合わせ</h2>
+  <div class="card">
+    <p>本ポリシーに関するお問い合わせは <a href="mailto:nanana03info@gmail.com">nanana03info@gmail.com</a> までお願いします。</p>
+  </div>
+
+  <p class="small">制定日: 2026年7月20日</p>
+
+  <footer>
+    <a href="index.html">トップへ戻る</a>
+    <p style="margin-top:10px">© 2026 推しくらべ (Oshi Check)</p>
+  </footer>
+</main>
+</body>
+</html>
